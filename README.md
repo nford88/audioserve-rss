@@ -13,6 +13,7 @@ Proxy can be ran standalone or built via the docker container.
 For standalone, clone this repo
 
 > npm install
+
 > npm start
  
 Which will run the rss.js file.
@@ -33,6 +34,7 @@ Note - Depending on your docker configuratation "ip.address()" may render your i
 One container is running, get the foldernane of your respected AudioBook. Make sure this is the root directory containing all audio files.
 
 > {localip}:3005/rss/{enterFolderNameHere}
+
 > http://192.168.0.45:3005/rss/Sylvia%20Plath%20-%20The%20Bell%20Jar%20(2016)
 
 ![image](https://user-images.githubusercontent.com/19550724/110541064-26cefa00-811f-11eb-951a-a15cae5419aa.png)
